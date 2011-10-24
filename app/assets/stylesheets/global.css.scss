@@ -7,6 +7,18 @@
 .light-weight {
   font-weight: 300 !important;
 }
+.margin-top {
+  margin-top: 10px;
+}
+.black {
+  color: #000 !important;
+}
+code {
+  font-family: "Courier New", Courier, Arial;
+  border: 1px solid #d0d0d0;
+  padding: 0 3px;
+  color: #666;
+}
 header {
   background-color: #272822;
   margin-bottom: 15px;
@@ -15,5 +27,21 @@ header {
     font-family: Courier;
     padding: 10px 0;
     color: #858EF4;
+  }
+}
+#canvas {
+  border: 1px solid #d0d0d0;
+}
+#main_contents {
+  margin-bottom: 15px;
+}
+footer.row {
+  padding-top: 15px;
+  border-top: 1px solid #E9E9E9;
+  h6 {
+    font-size: 1.0em;
+    padding-bottom: 6px;
+    font-weight: 400 !important;
+    color: #6F6F6F;
   }
 }

@@ -1,4 +1,14 @@
 CoffeescriptcanvasCom::Application.routes.draw do
+  
+  namespace :tutorials do
+    namespace :breakout do
+      get 'index'
+      get 'draw_a_circle'
+      get 'add_some_color'
+      get 'action'
+    end
+  end
+
   root :to => 'home#index'
 
   # The priority is based upon order of creation:
